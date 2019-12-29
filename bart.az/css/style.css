@@ -1,0 +1,336 @@
+/* HEADER SECTION */
+body{
+    font-family: 'Gilroy', sans-serif;
+}
+.header{
+    padding-top: 25px;
+}
+.social-icons{
+    float: left;
+}
+.social-icons ul{
+    display: inline-block;
+}
+.social-icons ul li{
+    display: inline-block;
+    list-style: none;
+    color:#b3b7bd;
+    padding-right: 9px;
+    cursor: pointer;
+    transition: linear;
+}
+.social-icons ul li:hover{
+    color: gray;
+}
+.social-icons ul li:not(:last-child):after{
+    content: ' |';
+    margin-left: 10px;
+    color: lightgray;
+    cursor: default;
+}
+.contact{
+    float: right;
+}
+.contact ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 25px;
+    color: #9296aa;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* END OF HEADER SECTION */
+
+
+/* MENU SECTION */
+.navbar{
+    background-color: #2E6BFF;
+    margin-top: 40px;
+    width: 100%;
+}
+.navbar img{
+    max-width: 145px;
+    height: 50px;
+    background-color: white;
+}
+.navbar .navbar-brand{
+    margin-right: 109px;
+}
+.navbar .navbar-nav>li{
+    margin-right: 40px;
+}
+.navbar .navbar-nav li a{
+    color: white!important;
+}
+.nav-link{
+    white-space: nowrap;
+    color: #ffffff;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar-login{
+}
+.navbar-login .nav-item{
+    display: inline-block;
+}
+.navbar-login ul{
+    display: flex;
+}
+.business-center{
+    border:1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.advertisement{
+    cursor: pointer;
+    transition: 0.3s linear;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #00ac6b;
+}
+.advertisement a{
+    display: inline-block;
+}
+/* END OF MENU SECTION */
+
+/* CREATE MAGAZINE SECTION */
+.create-magazine h1{
+    margin-bottom: 25px;
+    padding-right: 10px;
+    margin-top: 50px;
+    color: #44566c;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 65px;
+}
+.create-magazine .create-btn{
+    background-color: #2E6BFF;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s linear;
+}
+.create-magazine .create-btn:hover{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+/* END OF CREATE MAGAZINE SECTION */
+
+/* ABOUT SECTION */
+.about{
+    background-color: #F7F8FB;
+    margin-top: 50px;
+    padding-top: 40px;
+}
+.about .about-item{
+    margin-bottom: 70px;
+}
+.about-item h4{
+    color: #2e6bff;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.41px;
+    margin-top: 26px;
+    margin-bottom: 6px;
+}
+.about-item p{
+    padding-right:22px;
+    color: #44566c;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -0.34px;
+    line-height: 33px;
+}
+/* END OF ABOUT SECTION */
+
+.appeal{
+    margin: 50px 0;
+}
+.appeal .content{
+    padding-top: 30px;
+}
+.content h1{
+    color: #44566c;
+    font-weight: bold;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 66px;
+}
+.appeal-form h6{
+    color: #44566c;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.form-control{
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #d0d5da;
+    background-color: #ffffff;
+    margin: 10px 0px;
+}
+.form-control::placeholder{
+    color: #44566c;
+    font-family: 'Regular', 'Gilroy';
+    font-size: 18px;
+    font-weight: 400;
+}
+.appeal-btn{
+    height: 50px;
+    border-radius: 5px;
+    background-color: #00c18a;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 700;
+    height: 21px;
+    padding: 11px 46px;
+    margin-top: 10px;
+}
+.appeal-btn:hover{
+    text-decoration: none !important;
+    color: #ffffff;
+}
+
+/* FOOTER MENU */
+.footer-menu .navbar{
+    margin-top: 20px;
+}
+.footer-menu .navbar-nav li{
+    margin-left: 50px;
+    white-space: nowrap;
+
+}
+.footer-menu .navbar .navbar-brand{
+    margin-right: 115px!important;
+}
+.hr{
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+/* END OF FOOTER MENU */
+
+.footer{
+    background-color: #2E6BFF;
+    color: white;
+    padding: 40px;
+}
+.footer .footer-left{
+    float: left;
+}
+.footer .footer-left p{
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer .socials{
+    text-align: right;
+}
+.socials{
+    float: right;
+}
+.socials ul{
+    display: inline-block;
+}
+.socials ul li{
+    display: inline-block;
+    list-style: none;
+    color: lightgray;
+    padding-right: 9px;
+    cursor: pointer;
+    transition: linear;
+}
+.socials ul li:hover{
+    color: gray;
+}
+.socials ul li:not(:last-child):after{
+    content: ' |';
+    margin-left: 10px;
+    color: lightgray;
+    cursor: default;
+}
+.footer-menu .navbar-toggler{
+    display: none;
+}
+.footer-menu .collapse:not(.show){
+    display: block;
+}
+@media (max-width: 1227px){
+    .navbar .navbar-nav li{
+        padding-right: 10px;
+    }
+    .navbar-login ul {
+        margin-left: -35px;
+    }
+}
+@media (max-width: 1199px){
+    .navbar .navbar-brand{
+        padding-right: 0px;
+    }
+    .nav-link{
+        white-space: nowrap;
+    }
+    .footer-menu .navbar-nav li{
+        margin-left: 15px;
+    }
+    .navbar-login{
+        margin-left: 0;
+    }
+    .image img{
+        width: 350px;
+    }
+}
+@media (max-width: 992px){
+    .footer-menu .navbar{
+        padding-left:0px;
+    }
+    .footer{
+        padding-left: 0;
+    }
+    .footer-menu .navbar-nav li{
+        margin-left: 15px!important;
+    }
+    .advertisement{
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .business-center {
+        border: none;
+    }
+    .navbar-login ul{
+        margin-left: -40px; 
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-nav{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .image img{
+        width: 370px;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 560px){
+    .header{
+        display: none;
+    }
+    .socials{
+        display: none;
+    }
+}
+@media (max-width: 460px){
+    .image img{
+        width: 210px;
+    }
+}
+
